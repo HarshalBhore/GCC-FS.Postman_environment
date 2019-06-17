@@ -790,8 +790,8 @@
 							"pm.test(\"Body matches string\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"submission_id\",\"job_id\");",
 							"});",
-							"pm.test(\"Response time is less than 2500ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(2500);",
+							"pm.test(\"Response time is less than 3000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(3000);",
 							"});"
 						],
 						"type": "text/javascript"
