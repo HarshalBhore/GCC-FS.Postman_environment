@@ -1,0 +1,17 @@
+{
+  "name": "gcc-fs.postman_environment",
+  "version": "1.0.0",
+  "description": "storing data",
+  
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "newman run GCC_jsonPlaceholder.postman_collection.json -e Session_Token.postman_environment.json"
+  },
+  "author": "harsh",
+  
+  "dependencies": {
+    "newman": "^4.5.0"
+  }
+}
