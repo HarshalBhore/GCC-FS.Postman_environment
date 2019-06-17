@@ -19,7 +19,7 @@
 							"",
 							"pm.test(\"response body has json with request body\", function () {",
 							"    pm.response.to.have.jsonBody('message', ",
-							"        'Logged in as successfully');",
+							"        'Logged in successfully');",
 							"});",
 							"",
 							"pm.test(\"Body matches string\", function () {",
